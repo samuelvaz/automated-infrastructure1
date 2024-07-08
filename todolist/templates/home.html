@@ -1,0 +1,22 @@
+
+
+{% extends "base.html" %}
+
+{% block content %}
+  <div class="container">
+    <h2>Your To-Do List</h2>
+    <a class="btn btn-primary" href="{% url 'add_todo' %}">Add New To-Do</a>
+    <ul class="list-group mt-3">
+      {% for todo in todos %}
+        <li class="list-group-item">
+          <h5>{{ todo.title }}</h5>
+          <p>{{ todo.description }}</p>
+          <form action="{% url 'delete_todo' todo.id %}" method="POST" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-danger">Delete</button>
+          </form>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endblock %}
