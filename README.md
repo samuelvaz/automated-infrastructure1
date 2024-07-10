@@ -1,3 +1,10 @@
+## Update Packages
+
+``` bash
+sudo apt install openjdk-11-jdk -y
+
+```
+
 ## Java
 
 ``` bash
