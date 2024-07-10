@@ -1,3 +1,11 @@
+## Java
+
+``` bash
+sudo apt install openjdk-11-jdk -y
+
+```
+
+
 ## Install Jenkins:
 
 ``` bash
