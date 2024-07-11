@@ -9,7 +9,7 @@ sudo apt install openjdk-11-jdk -y
 ``` bash
 sudo apt install openjdk-11-jdk -y
 ```
-# OR
+#### OR
 ``` bash
 sudo apt install openjdk-17-jdk-headless
 ```
