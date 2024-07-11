@@ -2,19 +2,20 @@
 
 ``` bash
 sudo apt install openjdk-11-jdk -y
-
 ```
 
-## Java
 
+## Java
 ``` bash
 sudo apt install openjdk-11-jdk -y
-
+```
+# OR
+``` bash
+sudo apt install openjdk-17-jdk-headless
 ```
 
 
 ## Install Jenkins:
-
 ``` bash
 sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
